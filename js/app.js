@@ -772,14 +772,13 @@ document.querySelector("#submit").addEventListener("click", function () {
   const ans = getAnswer();
   if (ans === data.correct) {
     correct++;
+    index++;
+    loadQuestion();
   } else {
+    alert(`Please Try Again`);
     incorrect++;
   }
-  index++;
-  
 
-  alert(`The correct answer is ${data[data.correct]}`);
-  loadQuestion();
 });
 
 const getAnswer = () => {
