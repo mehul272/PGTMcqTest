@@ -771,11 +771,12 @@ document.querySelector("#submit").addEventListener("click", function () {
   const data = quizData[index];
   const ans = getAnswer();
   if (ans === data.correct) {
+    alert(`You Got it Right!.\nCorrect Answer: ${data[data.correct]}`);
     correct++;
     index++;
     loadQuestion();
   } else {
-    alert(`Please Try Again`);
+    alert(`Oops Wrong Answer! Try Again`);
   }
 });
 
