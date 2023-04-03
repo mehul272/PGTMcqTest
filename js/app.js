@@ -33,10 +33,10 @@ const quizData = [
   },
   {
     question: "What is the percentage atom utilisation?",
-    a: "(mole wt of desired product*100)/mole wt of (desired product+total produc",
+    a: "(mole wt of desired product*100)/mole wt of (desired product+total product)",
     b: "(mole wt of desired product*100)/mole wt of (desired product)",
     c: "(mole wt of desired product*100)/mole wt of (desired product+used product)",
-    d: "(mole wt of desired product*100)/mole wt of (desired product+by produc",
+    d: "(mole wt of desired product*100)/mole wt of (desired product+by product)",
     correct: "d",
   },
   {
@@ -67,7 +67,7 @@ const quizData = [
   },
   {
     question:
-      "One of the principles of green chemistry says that to produce          goods",
+      "One of the principles of green chemistry says that to produce ........... goods",
     a: "Harmful",
     b: "Commercial",
     c: "Safer",
@@ -75,7 +75,7 @@ const quizData = [
     correct: "c",
   },
   {
-    question: "After the use of chemicals, we must            them properly",
+    question: "After the use of chemicals, we must ........... them properly",
     a: "Use",
     b: "Reuse",
     c: "Dispose",
@@ -84,7 +84,7 @@ const quizData = [
   },
   {
     question:
-      "Green chemistry applies across the                of a chemical product like design, manufacture and use.",
+      "Green chemistry applies across the ........... of a chemical product like design, manufacture and use.",
     a: "Life cycle",
     b: "Properties",
     c: "Uses",
@@ -101,8 +101,7 @@ const quizData = [
     correct: "c",
   },
   {
-    question:
-      "Green chemistry improves                 of chemical manufacturers",
+    question: "Green chemistry improves ........... of chemical manufacturers",
     a: "Competitiveness",
     b: "Easiness of production",
     c: "Services",
@@ -110,7 +109,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "Green Chemistry reduces the use of ---------",
+    question: "Green Chemistry reduces the use of ...........",
     a: "Liquid fuels",
     b: "Energy",
     c: "Gaseous fuels",
@@ -119,7 +118,7 @@ const quizData = [
   },
   {
     question:
-      "Green Chemistry reduces the              and protects the environment.",
+      "Green Chemistry reduces the ........... and protects the environment.",
     a: "Pollution",
     b: "Temperature",
     c: "Air",
@@ -128,7 +127,7 @@ const quizData = [
   },
   {
     question:
-      "According to the green chemistry, the chemical involved in the production must be ---------",
+      "According to the green chemistry, the chemical involved in the production must be ...........",
     a: "Non toxic",
     b: "Toxic",
     c: "Highly toxic",
@@ -136,7 +135,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "The green synthesis methods should have ----------",
+    question: "The green synthesis methods should have ...........-",
     a: "Low efficiency",
     b: "High harmful products",
     c: "Low energy requirements",
@@ -145,7 +144,7 @@ const quizData = [
   },
   {
     question:
-      "Green synthesis method is            than the conventional method",
+      "Green synthesis method is ........... than the conventional method",
     a: "More costly",
     b: "More efficient",
     c: "Slower",
@@ -154,7 +153,7 @@ const quizData = [
   },
   {
     question:
-      "Green chemistry is the process to design chemical reaction in ----------",
+      "Green chemistry is the process to design chemical reaction in ...........-",
     a: "Environment friendly manner",
     b: "Industrial friendly manner",
     c: "Hazardous manner",
@@ -172,7 +171,7 @@ const quizData = [
   },
   {
     question:
-      "C2H4 +1/2 O2 → C2H4O(Ethylene oxide). This reaction will takes place under presence of catalyst. Find out the %atom economy",
+      "C2H4 +1/2 O2 ----→ C2H4O(Ethylene oxide). This reaction will takes place under presence of catalyst. Find out the %atom economy",
     a: 0.25,
     b: 0.5,
     c: 0.75,
@@ -181,7 +180,7 @@ const quizData = [
   },
   {
     question:
-      "The atom economy obtained for green synthesis is in the range of ---------",
+      "The atom economy obtained for green synthesis is in the range of ...........",
     a: "62-70%",
     b: "72-82%",
     c: "40-50%",
@@ -232,7 +231,7 @@ const quizData = [
   },
   {
     question:
-      "The term used to measure a product on person’s environmental impact is---------",
+      "The term used to measure a product on person’s environmental impact is...........",
     a: "Handprint",
     b: "CO2 print",
     c: "Footprint",
@@ -241,7 +240,7 @@ const quizData = [
   },
   {
     question:
-      "In green synthesis by avoiding harmful by products the catalyst used is ----------",
+      "In green synthesis by avoiding harmful by products the catalyst used is ...........-",
     a: "Tungsten",
     b: "Benzene",
     c: "Cyclo hexane",
@@ -258,7 +257,7 @@ const quizData = [
   },
   {
     question:
-      "Substances and energy sources needed for survival are called as……",
+      "Substances and energy sources needed for survival are called as ...........",
     a: "Man Made Resources",
     b: "Natural Resources",
     c: "Artificial Resources",
@@ -283,7 +282,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "…..are the things around us with which we interact.",
+    question: "........... are the things around us with which we interact.",
     a: "Living Things",
     b: "Non-Living Things",
     c: "Our Built Environment",
@@ -291,7 +290,7 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "…….is Renewable Resources.",
+    question: "........... is Renewable Resources.",
     a: "Oil,",
     b: "coal,",
     c: "minerals",
@@ -299,7 +298,7 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "…….is Non-Renewable Resources.",
+    question: "........... is Non-Renewable Resources.",
     a: "Sunlight",
     b: "Tidal Waves",
     c: "Coal",
@@ -316,7 +315,7 @@ const quizData = [
   },
   {
     question:
-      "In…….the perception of what constitutes a problem varies between individuals and societies.",
+      "In ........... the perception of what constitutes a problem varies between individuals and societies.",
     a: "Machine Problem",
     b: "Enviromental Problem",
     c: "Personal Problem",
@@ -324,7 +323,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "Expanded food production is result of …..",
+    question: "Expanded food production is result of ............",
     a: "Reduced population.",
     b: "Increased GDP",
     c: "Increased population and consumption",
@@ -332,7 +331,7 @@ const quizData = [
     correct: "c",
   },
   {
-    question: "…… is challenges of pollution.",
+    question: "........... is challenges of pollution.",
     a: "Waste products and artificial chemicals",
     b: "Natural wool",
     c: "Wood",
@@ -340,7 +339,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "…… is challenges in biodiversity.",
+    question: "............ is challenges in biodiversity.",
     a: "Growing Biodiversity",
     b: "conservation of wild animals",
     c: "increase in aqua life",
@@ -348,7 +347,7 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "We do not run ……. On fuels",
+    question: "We do not run ............ On fuels",
     a: "Machines",
     b: "Trees",
     c: "Pumps",
@@ -356,7 +355,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "Sustainable Solutions include……",
+    question: "Sustainable Solutions include ............",
     a: "Organic agriculture Technology",
     b: "Reduces pollution Biodiversity",
     c: "Recycling Alternative fuels",
@@ -365,7 +364,7 @@ const quizData = [
   },
   {
     question:
-      "The use of resources to satisfy current needs without compromising future availability of resources is ……",
+      "The use of resources to satisfy current needs without compromising future availability of resources is ............",
     a: "Personal Development",
     b: "Sustainable development",
     c: "Self Development",
@@ -373,7 +372,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "…..are the goals for sustainable development.",
+    question: "............ are the goals for sustainable development.",
     a: "Environmental goals",
     b: "Economic goals",
     c: "Social goals",
@@ -390,7 +389,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "Solving environmental problems can move us towards….",
+    question: "Solving environmental problems can move us towards ............",
     a: "Economical life",
     b: "Peaceful life",
     c: "Regulated Life",
@@ -399,7 +398,7 @@ const quizData = [
   },
   {
     question:
-      "Environmental science can help us find…..to environmental problems.",
+      "Environmental science can help us find ............ to environmental problems.",
     a: "balanced solutions",
     b: "Design Solutions",
     c: "Scientific Solutions",
@@ -407,7 +406,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "…..are sustainable development goals Indicators.",
+    question: "............ are sustainable development goals Indicators.",
     a: "No poverty",
     b: "Zero Hunger",
     c: "Quality Education",
@@ -416,7 +415,7 @@ const quizData = [
   },
   {
     question:
-      "To achieve universal and equitable access to safe and affordable drinking water for all           indicator is used.",
+      "To achieve universal and equitable access to safe and affordable drinking water for all ............ indicator is used.",
     a: "Proportion of salt in sea water.",
     b: "Proportion of population using safely managed drinking water servic",
     c: "Proportion of toxins in sea water.",
@@ -425,7 +424,7 @@ const quizData = [
   },
   {
     question:
-      "Suitable Indicator used for ensure universal access to affordable, reliable and modern energy services is…..",
+      "Suitable Indicator used for ensure universal access to affordable, reliable and modern energy services is .............",
     a: "Proportion of population with access to Internet",
     b: "Proportion of population with access to voting",
     c: "Proportion of population with access to electricity",
@@ -433,7 +432,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "Sustainable Development Goals 1 to 6 addresses…",
+    question: "Sustainable Development Goals 1 to 6 addresses ............",
     a: "social development",
     b: "Economic development",
     c: "Environment issues",
@@ -441,7 +440,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "Sustainable Development Goals 7-11 are on….",
+    question: "Sustainable Development Goals 7-11 are on .............",
     a: "social development",
     b: "Economic development",
     c: "Environment issues",
@@ -449,7 +448,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "Sustainable Development Goals 12 to 15 are on……",
+    question: "Sustainable Development Goals 12 to 15 are on ............",
     a: "social development",
     b: "Economic development",
     c: "Environment issues",
@@ -458,7 +457,7 @@ const quizData = [
   },
   {
     question:
-      "The Sustainable Development Goals 2030 agenda is Implemented on…",
+      "The Sustainable Development Goals 2030 agenda is Implemented on ............",
     a: "January 1, 2016",
     b: "January 1, 2017",
     c: "January 1, 2018",
@@ -466,7 +465,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "2030 Agenda for Sustainable Development builds on….",
+    question: "2030 Agenda for Sustainable Development builds on ............",
     a: "Vision and Principles",
     b: "Result framework",
     c: "Followup and Review",
@@ -474,7 +473,7 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "State Strategy for Achieving SDGs …..",
+    question: "State Strategy for Achieving SDGs .............",
     a: "Identification of Indicators",
     b: "Mapping of Departments",
     c: "Outcome based monitoring",
@@ -483,7 +482,7 @@ const quizData = [
   },
   {
     question:
-      "Which is not a Major National Programmes/ Initiatives aligning with SDGs…..",
+      "Which is not a Major National Programmes/ Initiatives aligning with SDGs .............",
     a: "National Food Security Mission",
     b: "Beti Bachao, Beti Padhao",
     c: "National Rural Finance Yojana",
@@ -492,7 +491,7 @@ const quizData = [
   },
   {
     question:
-      "Extensive use of Information Technology in Sustainable Development are….",
+      "Extensive use of Information Technology in Sustainable Development are ............",
     a: "Increase openness and leverage existing data.",
     b: "Improve the effective use of data.",
     c: "Enable data for action and decision making",
@@ -501,7 +500,7 @@ const quizData = [
   },
   {
     question:
-      "Sustainable Development Goal (SDG) monitoring does not includes….",
+      "Sustainable Development Goal (SDG) monitoring does not includes ............",
     a: "Inclusion",
     b: "Participation",
     c: "Ordering",
@@ -509,7 +508,7 @@ const quizData = [
     correct: "c",
   },
   {
-    question: "The Fundamental role of UNWTO is….",
+    question: "The Fundamental role of UNWTO is ............",
     a: "promotion and development of tourism",
     b: "promotion and development of Manpower",
     c: "promotion and development of Art",
@@ -517,7 +516,8 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "Tourism as the services trade is multi facetted…… phenomenon.",
+    question:
+      "Tourism as the services trade is multi facetted ............ phenomenon.",
     a: "social",
     b: "cultural",
     c: "economic",
@@ -525,7 +525,7 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "….is not an UNWTO PROGRAMATIC PRIORITIES 2018-21",
+    question: "............ is not an UNWTO PROGRAMATIC PRIORITIES 2018-21",
     a: "Smarter Tourism",
     b: "Tourism growth",
     c: "Create Decent jobs",
@@ -533,7 +533,7 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "…….is not a Materials Management Function",
+    question: "............ is not a Materials Management Function",
     a: "Material Planninng",
     b: "Purchasing",
     c: "Inventory Control",
@@ -541,7 +541,7 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "Inventory control does not covers….",
+    question: "Inventory control does not covers ............",
     a: "Setting the inventory levels",
     b: "EOQ",
     c: "Direct Labour cost",
@@ -549,7 +549,7 @@ const quizData = [
     correct: "c",
   },
   {
-    question: "……. is not a advantage of Integrated concept",
+    question: "............ is not a advantage of Integrated concept",
     a: "Better accountability",
     b: "Better coordination",
     c: "Better Life",
@@ -557,7 +557,7 @@ const quizData = [
     correct: "c",
   },
   {
-    question: "……. Is not a principle of Green Engineering.",
+    question: "............ Is not a principle of Green Engineering.",
     a: "Design for Separation",
     b: "Maximum Efficiency",
     c: "Minimize material life expectency",
@@ -566,7 +566,7 @@ const quizData = [
   },
   {
     question:
-      "Large wastes such as appliances, furniture, trees and branches that cannot be handled by normal waste management processing methods are…..",
+      "Large wastes such as appliances, furniture, trees and branches that cannot be handled by normal waste management processing methods are ............",
     a: "Natural Waste",
     b: "Bulky Waste",
     c: "Marine Waste",
@@ -575,7 +575,7 @@ const quizData = [
   },
   {
     question:
-      "the final disposal of solid waste by placinng in a controlled fashion in a place intended to be permanent is called as….",
+      "the final disposal of solid waste by placinng in a controlled fashion in a place intended to be permanent is called as ............",
     a: "Landfilling",
     b: "Waste Disposal",
     c: "Recycle",
@@ -584,7 +584,7 @@ const quizData = [
   },
   {
     question:
-      "A facility that uses solid waste materials to produce energy is called...",
+      "A facility that uses solid waste materials to produce energy is called ............",
     a: "economical plant.",
     b: "Thermal Plant",
     c: "Waste to energy plant",
@@ -593,7 +593,7 @@ const quizData = [
   },
   {
     question:
-      "Domestic, commercial and industrial wastes especially common as co-disposal of wastes are called as….",
+      "Domestic, commercial and industrial wastes especially common as co-disposal of wastes are called as ............",
     a: "Liquid Waste",
     b: "Solid Wastes",
     c: "Chemical Waste",
@@ -601,7 +601,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "….are not a biodegradable materials.",
+    question: "............ are not a biodegradable materials.",
     a: "Paper",
     b: "Wood",
     c: "Plastics",
@@ -610,7 +610,7 @@ const quizData = [
   },
   {
     question:
-      "waste that is reactive, toxic, corrosive, or otherwise dangerous to living things and environment are…..",
+      "waste that is reactive, toxic, corrosive, or otherwise dangerous to living things and environment are............ ",
     a: "Solid Waste",
     b: "Liquid Waste",
     c: "Hazardous Waste",
@@ -619,7 +619,7 @@ const quizData = [
   },
   {
     question:
-      "Substances safe to use commercially, industrially, agriculturally is….",
+      "Substances safe to use commercially, industrially, agriculturally is ............",
     a: "Non- Hazardous Waste",
     b: "Artificial Waste.",
     c: "Hazardous Waste",
@@ -627,7 +627,7 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "….is not a characteristics of solid waste.",
+    question: "............ is not a characteristics of solid waste.",
     a: "Physical",
     b: "Chemical",
     c: "Mechanical",
@@ -636,7 +636,7 @@ const quizData = [
   },
   {
     question:
-      "…... includes the determination of percent contents of various ingredients of the solid waste.",
+      "............ includes the determination of percent contents of various ingredients of the solid waste.",
     a: "Physical Characteristics",
     b: "Chemical Characteristics",
     c: "Biological Characteristics",
@@ -645,7 +645,7 @@ const quizData = [
   },
   {
     question:
-      "…..is used primarily for combustion and waste to energy (WTE) calculations but can also be used to estimate biological and chemical behaviours.",
+      "............ is used primarily for combustion and waste to energy (WTE) calculations but can also be used to estimate biological and chemical behaviours.",
     a: "Physical Characteristics",
     b: "Chemical Characteristics",
     c: "Biological Characteristics",
@@ -654,7 +654,7 @@ const quizData = [
   },
   {
     question:
-      "In …… ,Volatile Combustible Matter (VCM) (temp increased to 950 C, closed crucible is processed.",
+      "In ............ ,Volatile Combustible Matter (VCM) (temp increased to 950 C, closed crucible is processed.",
     a: "Ultimate Analysis",
     b: "Proximate Analysis",
     c: "Fusion Point",
@@ -663,7 +663,7 @@ const quizData = [
   },
   {
     question:
-      "Organic fraction often equated with the volatile solids (VS) content of the waste is called as…..",
+      "Organic fraction often equated with the volatile solids (VS) content of the waste is called as ............",
     a: "Solid Waste",
     b: "Liquid Waste",
     c: "Hazardous Waste",
@@ -671,7 +671,8 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "…… is not the way of Solid waste collection and transport.",
+    question:
+      "............ is not the way of Solid waste collection and transport.",
     a: "Containers",
     b: "Waste Bags",
     c: "Dust Bins",
@@ -679,7 +680,8 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "….is not under Municipal Collection Services of solid waste",
+    question:
+      "............ is not under Municipal Collection Services of solid waste",
     a: "Curb",
     b: "Garden Pickup",
     c: "Alley",
@@ -688,7 +690,7 @@ const quizData = [
   },
   {
     question:
-      "The ……. Method in which the house owner is responsible for placing solid waste container at the curb on schedule day.",
+      "The ............ Method in which the house owner is responsible for placing solid waste container at the curb on schedule day.",
     a: "Alley",
     b: "Crub",
     c: "Set out ans set back",
@@ -696,7 +698,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "…… is not a treatment and disposal of solid waste",
+    question: "............ is not a treatment and disposal of solid waste",
     a: "Composting",
     b: "Landfilling",
     c: "Disposing in water bodies.",
@@ -705,7 +707,7 @@ const quizData = [
   },
   {
     question:
-      "….. is a process in which organic matter of solid waste is decomposed and converted to humus and mineral compounnds.",
+      "............ is a process in which organic matter of solid waste is decomposed and converted to humus and mineral compounnds.",
     a: "Composting",
     b: "Landfilling",
     c: "Disposing in water bodies.",
@@ -714,7 +716,7 @@ const quizData = [
   },
   {
     question:
-      "…...is a waste treatment process that involves the combustion of organic substances contained in waste materials.",
+      "............ is a waste treatment process that involves the combustion of organic substances contained in waste materials.",
     a: "Incineration",
     b: "Composting",
     c: "Landfilling",
@@ -723,7 +725,7 @@ const quizData = [
   },
   {
     question:
-      "Heating of the solid waste at very high temp. in absence of air is…..",
+      "Heating of the solid waste at very high temp. in absence of air is ............",
     a: "Composting",
     b: "Pyrolysis",
     c: "Incineration",
@@ -731,7 +733,7 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "…….is processing used materials into new products.",
+    question: "............ is processing used materials into new products.",
     a: "Reuse",
     b: "Reduce",
     c: "Recycling",
@@ -740,7 +742,7 @@ const quizData = [
   },
   {
     question:
-      "……. reduce the consumption of fresh raw materials, reduce energy usage, reduce air pollution and water pollution.",
+      "............ reduce the consumption of fresh raw materials, reduce energy usage, reduce air pollution and water pollution.",
     a: "Reuse",
     b: "Reduce",
     c: "Recycling",
@@ -748,6 +750,7 @@ const quizData = [
     correct: "c",
   },
 ];
+
 let index = 0;
 let correct = 0,
   incorrect = 0,
