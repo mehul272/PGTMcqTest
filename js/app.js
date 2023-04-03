@@ -768,17 +768,20 @@ const loadQuestion = () => {
   allInputs[1].nextElementSibling.innerText = data.b;
   allInputs[2].nextElementSibling.innerText = data.c;
   allInputs[3].nextElementSibling.innerText = data.d;
+  document.getElementsByClassName("main")[0].style.backgroundColor = "DodgerBlue";
 };
 
 document.querySelector("#submit").addEventListener("click", function () {
   const data = quizData[index];
   const ans = getAnswer();
   if (ans === data.correct) {
+    document.getElementsByClassName("main")[0].style.backgroundColor = "green";
     alert(`You Got it Right!.\nCorrect Answer: ${data[data.correct]}`);
     correct++;
     index++;
     loadQuestion();
   } else {
+    document.getElementsByClassName("main")[0].style.backgroundColor = "FireBrick";
     alert(`Oops Wrong Answer! Try Again`);
   }
 });
